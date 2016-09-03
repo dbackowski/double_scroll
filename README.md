@@ -9,3 +9,7 @@ jQuery plugin to add additional scroll on top.
 ```javascript
 $(element).doubleScroll();
 ```
+
+## License
+
+Released under the MIT License.
