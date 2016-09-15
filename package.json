@@ -1,0 +1,33 @@
+{
+  "name": "double_scroll",
+  "version": "1.0.0",
+  "description": "jQuery plugin to add additional scroll on top.",
+  "main": "double_scroll.js",
+  "scripts": {
+    "test": "mocha-phantomjs ./test/test_runner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbackowski/double_scroll.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugn",
+    "double",
+    "scroll"
+  ],
+  "author": "Damian Baćkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbackowski/double_scroll/issues"
+  },
+  "homepage": "https://github.com/dbackowski/double_scroll#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "chai": "^3.5.0",
+    "jquery": "^3.1.0",
+    "mocha": "^3.0.2",
+    "mocha-phantomjs": "^4.1.0"
+  }
+
+}
