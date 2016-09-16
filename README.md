@@ -1,4 +1,4 @@
-# doubleScroll
+# doubleScroll [![Build Status](https://travis-ci.org/dbackowski/double_scroll.svg?branch=master)](https://travis-ci.org/dbackowski/double_scroll)
 
 jQuery plugin to add additional scroll on top. 
 
