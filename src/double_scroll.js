@@ -32,7 +32,7 @@
   }
 
   var methods = {
-    initialize: function(options) {
+    initialize: function() {
       scrollWrapper.call(this);
       $(window).on('resize', scrollWrapper.bind(this));
     },

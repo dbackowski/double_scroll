@@ -4,7 +4,8 @@
   "description": "jQuery plugin to add additional scroll on top.",
   "main": "double_scroll.js",
   "scripts": {
-    "test": "mocha-phantomjs ./test/test_runner.html"
+    "test": "mocha-phantomjs ./test/test_runner.html",
+    "build": "uglifyjs src/double_scroll.js -c -m -o dist/double_scroll.js.min"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
     "chai": "^3.5.0",
     "jquery": "^3.1.0",
     "mocha": "^3.0.2",
-    "mocha-phantomjs": "^4.1.0"
+    "mocha-phantomjs": "^4.1.0",
+    "uglifyjs": "^2.4.10"
   }
-
 }
