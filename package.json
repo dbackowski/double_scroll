@@ -5,7 +5,7 @@
   "main": "double_scroll.js",
   "scripts": {
     "test": "mocha-phantomjs ./test/test_runner.html",
-    "build": "uglifyjs src/double_scroll.js -c -m -o dist/double_scroll.js.min"
+    "build": "uglifyjs src/double_scroll.js -c -m -o dist/double_scroll.min.js"
   },
   "repository": {
     "type": "git",
