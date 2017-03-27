@@ -6,7 +6,7 @@
     var elementWidth = element.width();
     var elementScrollWidth = element[0] ? element[0].scrollWidth : elementWidth;
 
-    if (elementWidth != elementScrollWidth) {
+    if (elementScrollWidth > elementWidth) {
       var scrollWrapperTemplate = '<div id="double-scroll" class="scroll-wrapper" style="width: ' + elementWidth + 'px; overflow-x: scroll; overflow-y: hidden;">';
       scrollWrapperTemplate += '<div class="scroll-top" style="width: ' + elementScrollWidth + 'px; height: 1px"></div>';
       scrollWrapperTemplate += '</div>';
